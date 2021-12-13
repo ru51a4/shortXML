@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a9734f8-2c0a-4b58-ba34-58ee5294555a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/superxmltoobj.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/superxmltoobj.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
       <workItem from="1639388029612" duration="3808000" />
       <workItem from="1639392939201" duration="4138000" />
       <workItem from="1639399047334" duration="1559000" />
-      <workItem from="1639400766027" duration="1554000" />
+      <workItem from="1639400766027" duration="1592000" />
     </task>
     <servers />
   </component>
