@@ -1,0 +1,26 @@
+{
+  "name": "superxmltoobj",
+  "version": "1.0.0",
+  "description": "xml to js object",
+  "main": "./lib/superxmltoobj.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ru51a4/superxmltoobj.git"
+  },
+  "keywords": [
+    "xml"
+  ],
+  "author": "ru51a4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ru51a4/superxmltoobj/issues"
+  },
+  "homepage": "https://github.com/ru51a4/superxmltoobj#readme",
+  "dependencies": {
+    "jest": "^27.4.4",
+    "superxmlparser74": "git+https://github.com/ru51a4/superxmlparser74.git"
+  }
+}
