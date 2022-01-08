@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a9734f8-2c0a-4b58-ba34-58ee5294555a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/superxmltoobj.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/superxmltoobj.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../superxmlparser74" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -41,6 +42,9 @@
       <workItem from="1639392939201" duration="4138000" />
       <workItem from="1639399047334" duration="1559000" />
       <workItem from="1639400766027" duration="1692000" />
+      <workItem from="1641298456597" duration="962000" />
+      <workItem from="1641299623016" duration="310000" />
+      <workItem from="1641549376144" duration="6873000" />
     </task>
     <servers />
   </component>
