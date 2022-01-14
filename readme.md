@@ -1,7 +1,31 @@
-const superxmltoobj = require('./../lib/superxmltoobj');
-
-test('1', () => {
-    let str = `
+xml code/decode library(with variables)  
+example:  
+input  
+```js
+{
+    obj: {
+        fizz: {
+            lol: 'kek'
+        },
+        buzz: {
+            lol: 'kek'
+        },
+    },
+    obj2: {
+        fizz: {
+            lol: 'kek'
+        },
+        buzz: {
+            lol: 'kek'
+        },
+        fizzbuzz: {
+            lol: 'kek'
+        }
+    },
+}
+```
+output  
+```xml
 <root>
     <obj>
         <fizz superxmltoobj_print="true" superxmltoobj_var="19">
@@ -22,8 +46,6 @@ test('1', () => {
             <lol superxmltoobj_print="false" superxmltoobj_var="24"/>
         </fizzbuzz>
     </obj2>
-</root>`;
-    let obj = JSON.parse(`{"root":{"obj":{"fizz":{"lol":"kek"},"buzz":{"lol":"kek"}},"obj2":{"fizz":{"lol":"kek"},"buzz":{"lol":"kek"},"fizzbuzz":{"lol":"kek"}}}}
-    `);
-    expect(superxmltoobj.decode(str)).toEqual(obj);
-});
+</root>
+```
+status: unstable(in development);
