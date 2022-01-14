@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a9734f8-2c0a-4b58-ba34-58ee5294555a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/superxmltoobj.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/superxmltoobj.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
