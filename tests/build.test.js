@@ -45,6 +45,7 @@ test('simple2', ()=>{
     let obj = JSON.parse(`{
     "glossary": {
         "title": "example glossary",
+        "GlossSeeAlso": ["GML", "XML"],
 \t\t"GlossDiv": {
             "title": "S",
 \t\t\t"GlossList": {
