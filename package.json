@@ -11,7 +11,9 @@
     "url": "git+https://github.com/ru51a4/superxmltoobj.git"
   },
   "keywords": [
-    "xml"
+    "xml",
+    "xml2js",
+    "sortxml"
   ],
   "author": "ru51a4",
   "license": "ISC",
