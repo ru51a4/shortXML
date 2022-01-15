@@ -1,6 +1,6 @@
 const superxmltoobj = require('./../lib/superxmltoobj');
 
-test('1', () => {
+test('simple', () => {
     let str = `
 <root>
     <obj>
@@ -26,4 +26,18 @@ test('1', () => {
     let obj = JSON.parse(`{"root":{"obj":{"fizz":{"lol":"kek"},"buzz":{"lol":"kek"}},"obj2":{"fizz":{"lol":"kek"},"buzz":{"lol":"kek"},"fizzbuzz":{"lol":"kek"}}}}
     `);
     expect(superxmltoobj.decode(str)).toEqual(obj);
+});
+test('array', ()=>{
+    let obj = JSON.parse(`{"root":{"a":["1",{"a":"lol"},"1","1"]}}`);
+    let str =`
+<root>
+    <a superxmltoobj_print="true" superxmltoobj_var="12">1</a>
+        <a>
+            <a>
+                lol
+            </a>
+        </a>
+    <a superxmltoobj_print="false" superxmltoobj_var="12"/>
+    <a superxmltoobj_print="false" superxmltoobj_var="12"/>
+    </root>`
 });
