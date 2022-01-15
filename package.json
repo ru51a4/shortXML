@@ -1,6 +1,6 @@
 {
-  "name": "superxmltoobj",
-  "version": "1.0.0",
+  "name": "sortxml",
+  "version": "1.0.1",
   "description": "xml to js object",
   "main": "./lib/shortxml.js",
   "scripts": {
