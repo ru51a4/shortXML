@@ -2,7 +2,7 @@
   "name": "superxmltoobj",
   "version": "1.0.0",
   "description": "xml to js object",
-  "main": "./lib/superxmltoobj.js",
+  "main": "./lib/shortxml.js",
   "scripts": {
     "test": "jest"
   },

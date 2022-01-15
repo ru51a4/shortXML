@@ -28,22 +28,22 @@ output
 ```xml
 <root>
     <obj>
-        <fizz superxmltoobj_print="true" superxmltoobj_var="19">
-            <lol superxmltoobj_print="true" superxmltoobj_var="24">
+        <fizz shortxml_print="true" shortxml_var="19">
+            <lol shortxml_print="true" shortxml_var="24">
                 kek
             </lol>
         </fizz>
-        <buzz superxmltoobj_print="true" superxmltoobj_var="21">
-            <lol superxmltoobj_print="true" superxmltoobj_var="24">
+        <buzz shortxml_print="true" shortxml_var="21">
+            <lol shortxml_print="true" shortxml_var="24">
                 kek
             </lol>
         </buzz>
     </obj>
     <obj2>
-        <fizz superxmltoobj_print="false" superxmltoobj_var="19"/>
-        <buzz superxmltoobj_print="false" superxmltoobj_var="21"/>
+        <fizz shortxml_print="false" shortxml_var="19"/>
+        <buzz shortxml_print="false" shortxml_var="21"/>
         <fizzbuzz>
-            <lol superxmltoobj_print="false" superxmltoobj_var="24"/>
+            <lol shortxml_print="false" shortxml_var="24"/>
         </fizzbuzz>
     </obj2>
 </root>
