@@ -1,6 +1,6 @@
 {
-  "name": "sortxml",
-  "version": "1.0.1",
+  "name": "shortxml",
+  "version": "1.0.2",
   "description": "xml to js object",
   "main": "./lib/shortxml.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "keywords": [
     "xml",
     "xml2js",
-    "sortxml"
+    "shortxml"
   ],
   "author": "ru51a4",
   "license": "ISC",
