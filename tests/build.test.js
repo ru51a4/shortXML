@@ -23,12 +23,12 @@ test('simple', () => {
         </fizzbuzz>
     </obj2>
 </root>`;
-    let obj = JSON.parse(`{"root":{"obj":{"fizz":{"lol":"kek"},"buzz":{"lol":"kek"}},"obj2":{"fizz":{"lol":"kek"},"buzz":{"lol":"kek"},"fizzbuzz":{"lol":"kek"}}}}
+    let obj = JSON.parse(`{"obj":{"fizz":{"lol":"kek"},"buzz":{"lol":"kek"}},"obj2":{"fizz":{"lol":"kek"},"buzz":{"lol":"kek"},"fizzbuzz":{"lol":"kek"}}}
     `);
     expect(superxmltoobj.decode(str)).toEqual(obj);
 });
 test('array', ()=>{
-    let obj = JSON.parse(`{"root":{"a":["1",{"a":"lol"},"1","1"]}}`);
+    let obj = JSON.parse(`{"a":["1",{"a":"lol"},"1","1"]}`);
     let str =`
 <root>
     <a superxmltoobj_print="true" superxmltoobj_var="12">1</a>
