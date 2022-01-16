@@ -4,25 +4,24 @@ test('simple', () => {
     let str = `
 <root>
     <obj>
-        <fizz shortxml_print="true" shortxml_var="19">
-            <lol shortxml_print="true" shortxml_var="24">
+        <fizz shortxml_var="14">
+            <lol shortxml_var="15">
                 kek
             </lol>
         </fizz>
-        <buzz shortxml_print="true" shortxml_var="21">
-            <lol shortxml_print="true" shortxml_var="24">
-                kek
-            </lol>
+        <buzz shortxml_var="16">
+            <lol shortxml_var="15"/>
         </buzz>
     </obj>
     <obj2>
-        <fizz shortxml_print="false" shortxml_var="19"/>
-        <buzz shortxml_print="false" shortxml_var="21"/>
+        <fizz shortxml_var="14"/>
+        <buzz shortxml_var="16"/>
         <fizzbuzz>
-            <lol shortxml_print="false" shortxml_var="24"/>
+            <lol shortxml_var="15"/>
         </fizzbuzz>
     </obj2>
-</root>`;
+</root>
+`;
     let obj = JSON.parse(`{"obj":{"fizz":{"lol":"kek"},"buzz":{"lol":"kek"}},"obj2":{"fizz":{"lol":"kek"},"buzz":{"lol":"kek"},"fizzbuzz":{"lol":"kek"}}}
     `);
     expect(shortxml.decode(str)).toEqual(obj);
