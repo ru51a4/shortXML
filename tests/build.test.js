@@ -66,3 +66,35 @@ test('simple2', ()=>{
 }`);
     expect(shortxml.decode(shortxml.code(obj))).toEqual(obj);
 });
+test('arr arr', ()=>{
+  let obj = {
+    kek: [{
+      kek: ["1","1","1"]
+    },
+    {
+      kek: ["1","1","1"]
+    }],
+    lol: [{
+      kek: ["1","1","1"]
+    },
+    {
+      kek: ["1","1","1"]
+    }]
+  };
+g   /* <root>
+        <kek shortxml_var="24">
+            <kek shortxml_isarray="true" shortxml_var="25">
+                <kek shortxml_var="26">1</kek>
+                <kek shortxml_var="26" />
+                <kek shortxml_var="26" />
+            </kek>
+        </kek>
+        <kek shortxml_var="24" />
+        <lol shortxml_var="28">
+            <kek shortxml_var="25" />
+        </lol>
+        <lol shortxml_var="28" />
+    </root>*/
+
+  expect(shortxml.decode(shortxml.code(obj))).toEqual(obj);
+});
