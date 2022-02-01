@@ -81,7 +81,7 @@ test('arr arr', ()=>{
       kek: ["1","1","1"]
     }]
   };
-g   /* <root>
+   /* <root>
         <kek shortxml_var="24">
             <kek shortxml_isarray="true" shortxml_var="25">
                 <kek shortxml_var="26">1</kek>
