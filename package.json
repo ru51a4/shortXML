@@ -1,6 +1,6 @@
 {
   "name": "shortxml",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "xml to js object",
   "main": "./lib/shortxml.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ru51a4/superxmltoobj.git"
+    "url": "git+https://github.com/ru51a4/shortXML.git"
   },
   "keywords": [
     "xml",
@@ -18,9 +18,9 @@
   "author": "ru51a4",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ru51a4/superxmltoobj/issues"
+    "url": "https://github.com/ru51a4/shortXML/issues"
   },
-  "homepage": "https://github.com/ru51a4/superxmltoobj#readme",
+  "homepage": "https://github.com/ru51a4/shortXML#readme",
   "dependencies": {
     "jest": "^27.4.4",
     "superxmlparser74": "git+https://github.com/ru51a4/superxmlparser74.git"
