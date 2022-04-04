@@ -1,6 +1,6 @@
 {
   "name": "shortxml",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "xml to js object",
   "main": "./lib/shortxml.js",
   "scripts": {
